@@ -1,3 +1,13 @@
+# mac OS
+.DS_Store
+
+# pytest
+.pyc
+src/_pytest/_version.py
+.pytest_cache
+.cache
+.mypy_cache
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -43,13 +53,11 @@ htmlcov/
 .nox/
 .coverage
 .coverage.*
-.cache
 nosetests.xml
 coverage.xml
 *.cover
 *.py,cover
 .hypothesis/
-.pytest_cache/
 
 # Translations
 *.mo
@@ -121,7 +129,6 @@ venv.bak/
 /site
 
 # mypy
-.mypy_cache/
 .dmypy.json
 dmypy.json
 
